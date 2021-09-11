@@ -13,7 +13,7 @@ $(document).ready(function(){
 
 function getMovies(serachText){
     console.log(serachText);
-    axios.get('http://www.omdbapi.com/?s='+serachText+'&apikey=d556b324')
+    axios.get('https://www.omdbapi.com/?s='+serachText+'&apikey=d556b324')
     .then((response)=>{
         console.log(response);
 
