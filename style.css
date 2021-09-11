@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+#movies img, #movie img{
+    width: 100%;
+    margin: 15%;
+}
+
+#movies .col-md-3 .well{
+    height: 390px;
+    margin-top: 10%;
+    margin-bottom: 25%;
+}
+
+#movies .col-md-3 img{
+    height: 340px;
+    margin: auto;
+}
+footer{
+    position: fixed;
+            padding: 10px 10px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            text-align: center;
+}
