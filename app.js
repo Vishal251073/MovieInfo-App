@@ -60,7 +60,7 @@ function movieSelected(id){
 
 function getMovie(){
     let movieId = sessionStorage.getItem('movieId');
-    axios.get('http://www.omdbapi.com/?i='+movieId+'&apikey=d556b324')
+    axios.get('https://www.omdbapi.com/?i='+movieId+'&apikey=d556b324')
     .then((response)=>{
         console.log(response);
 
